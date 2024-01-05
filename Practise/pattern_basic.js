@@ -1,9 +1,15 @@
 let n = 5;
-let output = "";
 let i = 1;
+let output = "";
 
 while (i <= n) {
     output += "*" + " ";
-    console.log(output);
     i++;
 }
+console.log("Output :", output);
+
+// 1 output = "* "
+// 2 output = "* * "
+// 3 output = "* * * "
+// 4 output = "* * * * "
+// 5 output = "* * * * * "
